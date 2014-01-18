@@ -67,9 +67,9 @@
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
-in the config_autoBrightnessLevels array. This array should have size one greater
-than the size of the config_autoBrightnessLevels array.
-This must be overridden in platform specific overlays -->
+         in the config_autoBrightnessLevels array. This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>20</item>
         <item>80</item>
@@ -79,9 +79,9 @@ This must be overridden in platform specific overlays -->
     </integer-array>
 
     <!-- Array of output values for button backlight corresponding to the LUX values
-in the config_autoBrightnessLevels array. This array should have size one greater
-than the size of the config_autoBrightnessLevels array.
-This must be overridden in platform specific overlays -->
+         in the config_autoBrightnessLevels array. This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessButtonBacklightValues">
         <item>1</item>
         <item>1</item>
@@ -95,11 +95,11 @@ This must be overridden in platform specific overlays -->
     <integer name="config_screenBrightnessDim">10</integer>
 
     <!-- Default screen brightness setting.
-Must be in the range specified by minimum and maximum. -->
+         Must be in the range specified by minimum and maximum. -->
     <integer name="config_screenBrightnessSettingDefault">102</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
-The user is forbidden from setting the brightness below this level. -->
+         The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">10</integer>
 
     <!-- XXXXX NOTE THE FOLLOWING RESOURCES USE THE WRONG NAMING CONVENTION.
@@ -186,7 +186,7 @@ The user is forbidden from setting the brightness below this level. -->
      <bool name="config_multiColorBatteryLed">true</bool>
       -->
 
-<!-- Vibrator pattern for feedback about a long screen/key press -->
+    <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
         <item>1</item>
